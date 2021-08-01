@@ -47,7 +47,7 @@ let addBlog = (blogToAdd) => {
   });
 };
 
-let fetchBlogs = async () => {
+let fetchBlogs = () => {
   console.log("Listing blogs..");
   blogs = blogs.sort((a, b) => {
     return a.id - b.id;
